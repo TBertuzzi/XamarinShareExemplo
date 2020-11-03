@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" Padding="0,60,0,0" x:Class="XamarinShareExemplo.MainPage">
+  <StackLayout>
+        <Label Text="Copartilhar Informações" FontAttributes="Bold" FontSize="Large" 
+ HorizontalTextAlignment="Center" ></Label>
+
+        <Entry x:Name="entryTexto" Placeholder="Digite um Texto para Compartilhar" ></Entry>
+         <Button x:Name="btnShareText" Text="Compartilhar texto" Clicked="btnShareText_Clicked"/>
+        <Entry x:Name="entryUrl" Placeholder="Digite uma url para compartilhar" ></Entry>
+        <Button x:Name="btnShareUrl" Text="Compartilhar URL" Clicked="btnShareUrl_Clicked"/>
+    </StackLayout>
+</ContentPage>
